@@ -1,0 +1,8 @@
+.venv/
+.runtime/
+node_modules/
+build/
+__pycache__/
+output/
+*.log
+.DS_Store

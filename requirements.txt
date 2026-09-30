@@ -1,0 +1,18 @@
+# Portable inference subset; Blender, captioning services and CUDA are not needed.
+torch==2.5.1
+torchvision==0.20.1
+numpy==2.2.6
+transformers==4.57.6
+sentencepiece==0.2.1
+einops==0.8.2
+torchdiffeq==0.2.5
+torch-geometric==2.7.0
+accelerate>=1.0,<2
+tyro>=1.0,<2
+loguru>=0.7,<0.8
+rich>=14,<15
+matplotlib>=3.10,<4
+imageio>=2.37,<3
+pillow>=11,<13
+num2words==0.5.14
+Motion @ git+https://github.com/inbar-2344/Motion.git@ac236251f90e5ca37c444c53ad383fc85de6d833
