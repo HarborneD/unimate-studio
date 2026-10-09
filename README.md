@@ -45,7 +45,7 @@ npm ci
 npm run build
 python bootstrap.py
 python server.py
-# Open http://127.0.0.1:8153
+# Open http://127.0.0.1:8170
 ```
 
 To leave a detached local preview running after the terminal closes, use
@@ -70,7 +70,7 @@ then writes a local config with absolute prepared-data paths. Blender and the
 upstream captioning/training dependencies are not needed for this subset.
 
 For frontend development: run `python server.py` and `npm run dev`; Vite proxies
-`/api` to `127.0.0.1:8153`. The production server serves `build/web` and the API
+`/api` to `127.0.0.1:8170`. The production server serves `build/web` and the API
 from the same origin. A static-file server alone cannot provide generation.
 
 ## Exports

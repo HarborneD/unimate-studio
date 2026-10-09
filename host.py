@@ -27,7 +27,7 @@ def health(port):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('command', choices=['start', 'stop', 'status'])
-    parser.add_argument('--port', type=int, default=8153)
+    parser.add_argument('--port', type=int, default=8170)
     args = parser.parse_args()
     current = health(args.port)
     if args.command == 'status':
